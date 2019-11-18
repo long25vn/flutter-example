@@ -78,8 +78,8 @@ class Dog {
     age = 0;
   }
  
-  <mark>bark() {</mark>
-    print('Bow Wow');
-  }
+  bark() { ////////////////////
+    print('Bow Wow');/////////
+  }///////////////////////////
 }
 ```
