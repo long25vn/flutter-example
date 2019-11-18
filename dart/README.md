@@ -19,9 +19,9 @@ class Dog {
   }
 }
 
-class Pug extends Dog {
-  Pug(String name, int age): super(name, age);
-}
+class Pug extends Dog {/////////////////////////////
+  Pug(String name, int age): super(name, age);//////
+}///////////////////////////////////////////////////
 ```
 
 Here our Pug class inherits from the Dog class and calls the constructor of the Dog class with appropriate parameters using the super keyword.
@@ -81,5 +81,43 @@ class Dog {
   bark() { ////////////////////
     print('Bow Wow');/////////
   }///////////////////////////
+}
+```
+
+Overriding methods is just as simple as well.
+
+```dart
+main(List<String> args) {
+  Pug p = new Pug.small('Duffy');
+  p.bark();
+}
+
+class Dog {
+  String name;
+  int age;
+
+  Dog(this.name, this.age);
+
+  Dog.newBorn() {
+    name = 'Doggy';
+    age = 0;
+  }
+
+  bark() {
+    print('Bow Wow');
+  }
+}
+
+class Pug extends Dog {
+  Pug(String name, int age): super(name, age);
+
+  Pug.small(String name): this(name, 1);
+
+  Pug.large(String name): this(name, 3);
+
+  @override
+  bark() {
+    print('Meow!');
+  }
 }
 ```
