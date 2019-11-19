@@ -13,13 +13,8 @@ class MainApp extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text(
-            "Stateful Widget Lifecycle Demo",
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 28.0),
-          ),
           RaisedButton(
-              child: Text("Go to next"),
+              child: Text("Lifecycle"),
               onPressed: () {
                 Navigator.of(context)
                     .push(MaterialPageRoute(builder: (context) {
@@ -63,6 +58,7 @@ class _LifeCycleDemoState extends State<LifeCycleDemo> {
   @override
   Widget build(BuildContext context) {
     print("From state build");
+    print(mounted);
     return Scaffold(
       appBar: AppBar(
         title: Text("Stateful Widget Lifecycle Demo"),
@@ -81,7 +77,13 @@ class _LifeCycleDemoState extends State<LifeCycleDemo> {
                   counter++;
                 });
               },
-              child: Text("Click Me"),
+              child: Text("increase"),
+            ),
+             RaisedButton(
+              onPressed: () {
+                dispose();
+              },
+              child: Text("dispose"),
             )
           ],
         )),
@@ -89,6 +91,12 @@ class _LifeCycleDemoState extends State<LifeCycleDemo> {
     );
   }
 
+  @override
+  void deactivate() {
+    print("From state deactivate");
+    super.deactivate();
+  }
+  
   @override
   void dispose() {
     print("From state dispose");
