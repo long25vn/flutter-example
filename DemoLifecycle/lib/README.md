@@ -1,4 +1,9 @@
 ![](https://i.imgur.com/AFtgkhu.png)
+```
+createState() -> mounted == true -> initState() 
+-> didChangeDependencies() -> build() -> didUpdateWidget() -> setState()
+-> deactivate() -> dispose() -> mounted == false
+```
 
 1. The state class constructor is called (as it is for every class in Dart). 
 The widget isn’t in the tree yet, so most state-specific initialization shouldn’t be done here.
