@@ -2,7 +2,7 @@ import 'dart:async';
 
 const news = '<thu thập tin tức ở đây>';
 
-Future<void> printTinTucHangNgay() async {
+Future<void> printTinTucHangNgay() {
   final future = thuThapTinTuc();
   return future.then(print);
 }
