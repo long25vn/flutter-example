@@ -126,6 +126,13 @@ Một `BuildContext` chỉ thuộc về một widget. Nếu một widget chứa 
   
   - [https://www.techiediaries.com/flutter-async-api-calls/](https://www.techiediaries.com/flutter-async-api-calls/)
   
+  #### Store data
+  
+  - [Persist data with SQLite](https://flutter.dev/docs/cookbook/persistence/sqlite)
+  
+  - [https://medium.com/flutter-community/using-sqlite-in-flutter-187c1a82e8b](https://medium.com/flutter-community/using-sqlite-in-flutter-187c1a82e8b)
+  
+  - [Store key-value data on disk](https://flutter.dev/docs/cookbook/persistence/key-value)
   
 ## Kiến trúc
   - [Flutter Architecture Samples](https://fluttersamples.com/)
