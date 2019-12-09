@@ -136,9 +136,12 @@ Một `BuildContext` chỉ thuộc về một widget. Nếu một widget chứa 
   #### Bloc
   - [Bloc Tutorial](https://bloclibrary.dev/#/gettingstarted)
   
+  - [Streams, BLoC pattern](http://flutterdevs.com/blog/bloc-pattern-in-flutter-part-1/)
+  
   - [Getting Started with the BLoC Pattern](https://www.raywenderlich.com/4074597-getting-started-with-the-bloc-pattern#toc-anchor-001)
   
   - [Easiest way to understand Bloc with Flutter](https://blog.usejournal.com/easiest-way-to-understand-bloc-with-flutter-8ff51a989e17)
+  
   
   #### Streams
   - [https://medium.com/flutter-community/understanding-streams-in-flutter-dart-827340437da6](https://medium.com/flutter-community/understanding-streams-in-flutter-dart-827340437da6)
