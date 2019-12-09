@@ -28,15 +28,24 @@ Flutter xây dựng trên Dart, điều đó có nghĩa, Dart mới là ngôn ng
 
 Flutter chỉ đơn giản biên dịch code Dart cho các nền tảng khác nhau thông qua Flutter SDK
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LqVNQWyi1US2l7fPXpG%2F-LrwkfhyplXmFtX7cFS7%2F-Lrwl7-0I4bmXHPTtnIM%2Fchrome_dX7WfAMMEE.png?alt=media&token=12953187-61da-4bbb-a493-dd3b794b6ab9)
+ <p align="center">
+  <img width="600" src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LqVNQWyi1US2l7fPXpG%2F-LrwkfhyplXmFtX7cFS7%2F-Lrwl7-0I4bmXHPTtnIM%2Fchrome_dX7WfAMMEE.png?alt=media&token=12953187-61da-4bbb-a493-dd3b794b6ab9">
+</p>
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LqVNQWyi1US2l7fPXpG%2F-LrwkfhyplXmFtX7cFS7%2F-LrwwsQV5f1epQO5YL_i%2Fchrome_6MFBXV9jWa.png?alt=media&token=257674d6-1517-48ac-91d4-9fb509d117a4)
+ <p align="center">
+  <img width="600" src="https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LqVNQWyi1US2l7fPXpG%2F-LrwkfhyplXmFtX7cFS7%2F-LrwwsQV5f1epQO5YL_i%2Fchrome_6MFBXV9jWa.png?alt=media&token=257674d6-1517-48ac-91d4-9fb509d117a4">
+</p>
+
 
 
 > # Mọi thứ trong ứng dụng Flutter đều là `Widget`  
 
 ### Widget vô hình và hữu hình
-  ![](https://camo.githubusercontent.com/9d61a34ff7767b0e9e1772c39da77ce5016b982e/68747470733a2f2f626c6f627363646e2e676974626f6f6b2e636f6d2f76302f622f676974626f6f6b2d32383432372e61707073706f742e636f6d2f6f2f6173736574732532462d4c71564e51577969315553326c3766505870472532462d4c72785f6e5159756c546f69617930474534312532462d4c72785f7172575542735f58336b77726b50542532466368726f6d655f38414554366a4e5950492e706e673f616c743d6d6564696126746f6b656e3d65393561663862642d626436372d346366342d396463302d663932656132306633653138)
+  ![]()
+  
+ <p align="center">
+  <img width="600" src="https://camo.githubusercontent.com/9d61a34ff7767b0e9e1772c39da77ce5016b982e/68747470733a2f2f626c6f627363646e2e676974626f6f6b2e636f6d2f76302f622f676974626f6f6b2d32383432372e61707073706f742e636f6d2f6f2f6173736574732532462d4c71564e51577969315553326c3766505870472532462d4c72785f6e5159756c546f69617930474534312532462d4c72785f7172575542735f58336b77726b50542532466368726f6d655f38414554366a4e5950492e706e673f616c743d6d6564696126746f6b656e3d65393561663862642d626436372d346366342d396463302d663932656132306633653138">
+</p>
   
 Widget hữu hình ví dụ như Input, button, text, card , ... những thứ được vẽ trên màn hình, có thể nhìn thấy được ngay trên ứng dụng.
 
@@ -60,10 +69,24 @@ Vì không hiển thị trực tiếp, khi sử dụng widget vô hình, chúng 
   - [Just Enough Dart For Flutter](http://thetechnocafe.com/just-enough-dart-for-flutter-tutorial-01-variables-types-and-functions/)
 
 #### State, BuildContext, Stateful & Stateless
+
+`State - Trạng thái`: đại diện cho dữ liệu thay đổi trong vòng đời ứng dụng.
+
+📌  Khi `state` thay đổi, UI vẽ lại widget để phản ánh `state` mới. 
+
+📎  Phần giao diện hiển thị chỉ đại diện cho `state` tại một thời điểm, thay đổi `state` -> thay đổi giao diện. 
+
+Khi gọi hàm `setState(() {})` trong `Stateful Widget`, Flutter thực hiện re-run lại phương thức `build()`
+
   - [https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956](https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956)
   
   - [Stateful Widget Lifecycle](https://flutterbyexample.com/stateful-widget-lifecycle/)
   
+`BuildContext` chứa một widget được xây dựng bên trong, tham chiếu đến vị trí của widget trong `Widget tree`, nơi widget được gắn vào `tree`.
+
+Một `BuildContext` chỉ thuộc về một widget. Nếu một widget chứa các widget con,  `BuildContext` của widget cha sẽ trở thành `parent BuildContext` của các `BuildContext` của các widget con.
+
+  - [Build Context](https://flutterbyexample.com/build-context-class/)  
   
   #### Widgets, Elements & RenderObjects
   - [https://medium.com/flutter-community/flutter-what-are-widgets-renderobjects-and-elements-630a57d05208](https://medium.com/flutter-community/flutter-what-are-widgets-renderobjects-and-elements-630a57d05208)
