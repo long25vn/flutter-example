@@ -18,11 +18,17 @@
   
 ## Nội dung
 
+#### State, BuildContext, Stateful & Stateless, Inheritedwidget
   - [State, BuildContext, Stateful & Stateless, Inheritedwidget](https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956)
   
   - [Stateful Widget Lifecycle](https://flutterbyexample.com/stateful-widget-lifecycle/)
   
-  - [Widgets, Elements & RenderObjects](https://medium.com/flutter-community/flutter-what-are-widgets-renderobjects-and-elements-630a57d05208)
+  
+  
+  #### Widgets, Elements & RenderObjects
+  - [https://medium.com/flutter-community/flutter-what-are-widgets-renderobjects-and-elements-630a57d05208](https://medium.com/flutter-community/flutter-what-are-widgets-renderobjects-and-elements-630a57d05208)
+  
+  - [https://medium.com/flutter-community/the-layer-cake-widgets-elements-renderobjects-7644c3142401](https://medium.com/flutter-community/the-layer-cake-widgets-elements-renderobjects-7644c3142401)
   
   
 ## Kiến trúc
