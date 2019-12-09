@@ -68,6 +68,8 @@ Vì không hiển thị trực tiếp, khi sử dụng widget vô hình, chúng 
 
   - [Just Enough Dart For Flutter](http://thetechnocafe.com/just-enough-dart-for-flutter-tutorial-01-variables-types-and-functions/)
 
+  - [Cú pháp hay dùng](https://khiemle.dev/dart-language-cheatsheet/)
+  
 #### State, BuildContext, Stateful & Stateless
 
 `State - Trạng thái`: đại diện cho dữ liệu thay đổi trong vòng đời ứng dụng.
@@ -94,7 +96,59 @@ Một `BuildContext` chỉ thuộc về một widget. Nếu một widget chứa 
   - [https://medium.com/flutter-community/the-layer-cake-widgets-elements-renderobjects-7644c3142401](https://medium.com/flutter-community/the-layer-cake-widgets-elements-renderobjects-7644c3142401)
   
   
+  #### Navigation
+  
+  - [https://medium.com/flutter-community/flutter-push-pop-push](https://medium.com/flutter-community/flutter-push-pop-push-1bb718b13c31)
+  
+  - [https://www.raywenderlich.com/4562634-flutter-navigation-getting-started#toc-anchor-005](https://www.raywenderlich.com/4562634-flutter-navigation-getting-started#toc-anchor-005)
+  
+  
+  #### Lập trình bất đồng bộ
+  
+  - [Async in Flutter](https://flutter-academy.com/async-in-flutter-futures/)
+  
+  - [Dart Fundamentals – Async / Await](https://codingwithjoe.com/dart-fundamentals-async-await/)
+  
+  - [Futures, async, await: Threading in Flutter](https://medium.com/flutter-community/futures-async-await-threading-in-flutter-baeeab1c1fe3)
+  
+  - [Flutter in Focus](https://www.youtube.com/watch?v=SmTCmDMi4BY)
+  
+  - [Cache](https://medium.com/saugo360/flutter-my-futurebuilder-keeps-firing-6e774830bc2)
+  
+  
+  #### Làm việc với JSON
+  
+  - [https://medium.com/flutter-community/parsing-complex-json-in-flutter-747c46655f51](https://medium.com/flutter-community/parsing-complex-json-in-flutter-747c46655f51)
+  
+  #### Làm việc với API
+  
+  - [https://medium.com/flutter-community/working-with-apis-in-flutter-8745968103e9](https://medium.com/flutter-community/working-with-apis-in-flutter-8745968103e9)
+  
+  - [https://www.techiediaries.com/flutter-async-api-calls/](https://www.techiediaries.com/flutter-async-api-calls/)
+  
+  
 ## Kiến trúc
   - [Flutter Architecture Samples](https://fluttersamples.com/)
   
+  
+  #### Bloc
   - [Bloc Tutorial](https://bloclibrary.dev/#/gettingstarted)
+  
+  #### Streams
+  - [https://medium.com/flutter-community/understanding-streams-in-flutter-dart-827340437da6](https://medium.com/flutter-community/understanding-streams-in-flutter-dart-827340437da6)
+  
+  - [https://medium.com/@ayushpguptaapg/using-streams-in-flutter-62fed41662e4](https://medium.com/@ayushpguptaapg/using-streams-in-flutter-62fed41662e4)
+  
+  - [https://alligator.io/flutter/futures-and-streams-dart/](https://alligator.io/flutter/futures-and-streams-dart/)
+  
+  
+  #### Provider
+  
+  - [Understanding Provider in Diagrams](https://medium.com/flutter-community/understanding-provider-in-diagrams-part-1-providing-values-4379aa1e7fd5)
+  
+  - [Flutter: Pragmatic State Management Using Provider.](https://medium.com/flutter-community/flutter-pragmatic-state-management-using-provider-5c1129f9b5bb)
+  
+  - [https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple)
+  
+  
+  
